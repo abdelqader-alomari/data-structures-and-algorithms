@@ -110,7 +110,7 @@ console.log(a) prints [1, 2, 3, 4]
 ------------------------------------------------------------------------------------------------ */
 
 const append = (arr1, arr2) => {
-  for (let index in arr1) {
+  for (let index in arr2) {
     arr1.push(arr2[index]);
   }
 };
